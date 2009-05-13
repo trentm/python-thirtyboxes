@@ -1,0 +1,24 @@
+High Prio
+=========
+
+- s/30boxes/30 boxes/ where reasonable because that is what others are using.
+  Compare google:30boxes+api vs. google:30+boxes+api. I score in the first
+  but not the second.
+- move to google code
+- update structure as my other projects
+- fix up setup.py and put up on pypi
+  
+
+Med Prio
+========
+
+- What about "~/.30boxes/..." on Windows? My user_data_dir() relies on
+  PyWin32 right now. Use fallbacks in Komodo code.
+- Suggestions for 30boxes for API additions:
+   - list tags (get all used tags)
+   - optional start/end on search and tagsearch
+   - allow implicit dates allowed in One Box for the events.Get()
+     start and end arguments. E.g. start="tomorrow"
+- Add parsed and formatted output for the commandline interface.
+- Add (or fill out) docstrings for the API methods.
+
