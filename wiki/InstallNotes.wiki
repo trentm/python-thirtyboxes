@@ -1,7 +1,7 @@
 #summary How to install thirtyboxes.py
 #labels Featured
 
-This project installs one Python module: `thirtyboxes.py`. The command-line interface depends on [http://code.google.com/p/cmdln cmdln.py]. The module should work with Python 2.4, 2.5, 2.6, 2.7. I haven't yet put together a version for Python 3.
+This project installs one Python module: `thirtyboxes.py`. It depends on some form of the `ElementTree` python API: any of `xml.etree`, `ElementTree`, `cElementTree` or `lxml`. The command-line interface depends on [http://code.google.com/p/cmdln cmdln.py]. The module should work with Python 2.4, 2.5, 2.6, 2.7. I haven't yet put together a version for Python 3.
 
 
 = Do I have it installed? =
