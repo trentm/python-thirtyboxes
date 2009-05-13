@@ -45,7 +45,7 @@ Install with *one* of the following methods.
     
       For example, for version 0.6.0:
       {{{
-wget -q http://thirtyboxes.googlecode.com/files/thirtyboxes-0.6.0.zip
+wget -q http://python-thirtyboxes.googlecode.com/files/thirtyboxes-0.6.0.zip
 unzip thirtyboxes-0.6.0.zip
 cd thirtyboxes-0.6.0
 python setup.py install
